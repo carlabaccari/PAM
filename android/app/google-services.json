@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845015105577",
+    "project_id": "pam-final-a3aa8",
+    "storage_bucket": "pam-final-a3aa8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845015105577:android:111fba2e5c826bed01dc38",
+        "android_client_info": {
+          "package_name": "com.pam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhUJCzwxZZrCHhxzvtf1UxX1_7_HfLlsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
