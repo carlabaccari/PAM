@@ -5,9 +5,10 @@ import {createDrawerNavigator} from '@react-navigation/drawer';
 import {Provider} from 'react-redux';
 import Home from './components/Home/index.js';
 import Favs from './components/Favs/index.js';
-import Features from './components/Features/index.js';
+import Map from './components/Features/index.js';
 import {store} from './components/reducers/store.js';
 import messaging from '@react-native-firebase/messaging';
+import Camera from './components/Camera/index.js';
 const Drawer = createDrawerNavigator();
 
 const App = () => {
@@ -39,7 +40,8 @@ const App = () => {
         <Drawer.Navigator initialRouteName="Home">
           <Drawer.Screen name="Home" component={Home} />
           <Drawer.Screen name="Favs" component={Favs} />
-          <Drawer.Screen name="Features" component={Features} />
+          <Drawer.Screen name="Maps" component={Map} />
+          <Drawer.Screen name="Camera" component={Camera} />
         </Drawer.Navigator>
       </NavigationContainer>
     </Provider>
